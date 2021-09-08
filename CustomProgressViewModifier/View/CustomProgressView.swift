@@ -12,7 +12,7 @@ struct CustomProgressView: ViewModifier {
     @Binding var showProgressView: Bool
 
     func body(content: Content) -> some View {
-        // contentはこのカスタムViewModifierを使用する対象Viewを指す
+        // contentはこのカスタムViewModifierを使用する対象Viewプロキシ
         ZStack { content
             if showProgressView {
                 // ProgressViewの背景をタップ不可にするために、Colorを使用

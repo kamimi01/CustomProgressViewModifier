@@ -52,53 +52,5 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "61ECE6CD-1760-43A2-BB19-3050649FD4E6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CustomProgressViewModifier/View/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "61ECE6CD-1760-43A2-BB19-3050649FD4E6 - 96cb993f2b53048c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CustomProgressViewModifier.ContentView.body.getter : some"
-                  moduleName = "CustomProgressViewModifier"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikaurakawa/Desktop/Xcode_Projects/CustomProgressViewModifier/CustomProgressViewModifier/View/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "219">
-               </Location>
-               <Location
-                  uuid = "61ECE6CD-1760-43A2-BB19-3050649FD4E6 - bab234e11254685b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt; in CustomProgressViewModifier.ContentView.body.getter : some"
-                  moduleName = "CustomProgressViewModifier"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikaurakawa/Desktop/Xcode_Projects/CustomProgressViewModifier/CustomProgressViewModifier/View/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
