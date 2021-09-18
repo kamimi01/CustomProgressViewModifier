@@ -18,7 +18,7 @@ struct ContentView: View {
         }
         .background(Color.yellow)
         .frame(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-        .customProgressView(showProgressView: $viewModel.showProgressView)
+        .customProgressView($viewModel.isShownProgressView)
         .onAppear {
             viewModel.onAppear()
         }

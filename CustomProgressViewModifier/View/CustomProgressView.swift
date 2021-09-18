@@ -9,12 +9,12 @@ import SwiftUI
 
 struct CustomProgressView: ViewModifier {
 
-    @Binding var showProgressView: Bool
+    @Binding var isShownProgressView: Bool
 
     func body(content: Content) -> some View {
         // contentはこのカスタムViewModifierを使用する対象Viewプロキシ
         ZStack { content
-            if showProgressView {
+            if isShownProgressView {
                 // ProgressViewの背景をタップ不可にするために、Colorを使用
                 Color.gray.opacity(0.2)
 
@@ -34,7 +34,7 @@ struct CustomProgressView: ViewModifier {
 }
 
 struct CustomProgressView_Previews: PreviewProvider {
-    @State static var showProgressView = true
+    @State static var isShownProgressView = true
 
     static var previews: some View {
         VStack(spacing: 50) {
@@ -42,6 +42,6 @@ struct CustomProgressView_Previews: PreviewProvider {
             Text("テスト")
         }
         .background(Color.yellow)
-        .customProgressView(showProgressView: $showProgressView)
+        .customProgressView($isShownProgressView)
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension View {
-    func customProgressView(showProgressView: Binding<Bool>) -> some View {
-        self.modifier(CustomProgressView(showProgressView: showProgressView))
+    func customProgressView(_ isShownProgressView: Binding<Bool>) -> some View {
+        self.modifier(CustomProgressView(isShownProgressView: isShownProgressView))
     }
 }
